@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Droi Sample App</string>
+
+    <string name="default_sponsored_text">Sponsored</string>
+    <string name="label_image_caption">Caption</string>
+
+    <string name="native_icon_image">native_icon_image</string>
+    <string name="native_main_image">native_main_image</string>
+    <string name="native_privacy_information_icon_image">Privacy Information Icon image</string>
+    <string name="learn_more">Learn More</string>
+
+</resources>
