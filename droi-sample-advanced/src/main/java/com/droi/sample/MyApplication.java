@@ -13,8 +13,8 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
         try {
-            DroiSdk.initialize(this);
-//                    .setDebug(true);
+            DroiSdk.initialize(this)
+                    .setDebug(true);
         } catch (Exception e) {
             e.printStackTrace();
         }

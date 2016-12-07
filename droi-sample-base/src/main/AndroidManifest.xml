@@ -19,6 +19,23 @@
 
         <activity android:name=".NativeActivity"/>
 
+        <!-- 增加Admob-AD相关配置 -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- 增加Facebook-AD相关配置 -->
+        <activity
+            android:name="com.facebook.ads.InterstitialAdActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity
+            android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+
         <meta-data
             android:name="DROI_APPID"
             android:value="b19c01f6-ef6c-446d-a224-9308178565e6" />
