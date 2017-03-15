@@ -35,7 +35,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.1'
     testCompile 'junit:junit:4.12'
     //增加ADroiSDK依赖
-    compile 'com.droi:adroi:2.0.1'
+    compile 'com.droi:adroi:2.1.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
     //增加Facebook-Ad-SDK依赖
     compile 'com.facebook.android:audience-network-sdk:4.+'
